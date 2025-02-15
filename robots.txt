@@ -1,7 +1,9 @@
 User-agent: *
-Disallow: /app/
-Disallow: /dist/
-Disallow: /admin/
 Allow: /
+
+# Exclude sensitive admin and backend files (if applicable)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
 
 Sitemap: https://cryptoscout.xyz/sitemap.xml
