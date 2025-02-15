@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /app/
+Disallow: /dist/
+Disallow: /admin/
+Allow: /
+
+Sitemap: https://cryptoscout.xyz/sitemap.xml
